@@ -10,3 +10,5 @@ WorkSheet03 -> Functions, Import and Export Files
 
 WorkSheet04 -> Univariante Analysis, Bivariante Analysis (Descriptive Statistics)
 
+WorkSheet05 -> Quantile, Mean, Summary, IQR
+
