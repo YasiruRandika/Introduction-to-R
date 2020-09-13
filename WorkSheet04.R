@@ -16,7 +16,7 @@ attach(dataSet)
 mean(Age)
 
 #detach dataSet
-deattach(dataSet)
+detach(dataSet)
 mean(dataSet$Age)
 
 #Analysing categorical Variables (Univariante Analysis)
