@@ -8,3 +8,5 @@ WorkSheet02 -> Sample, If Else, For Loop, While Loop
 
 WorkSheet03 -> Functions, Import and Export Files
 
+WorkSheet04 -> Univariante Analysis, Bivariante Analysis (Descriptive Statistics)
+
