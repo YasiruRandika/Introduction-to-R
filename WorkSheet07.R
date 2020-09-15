@@ -1,3 +1,5 @@
+setwd("C:/Users/IT19131184/Downloads")
+
 #Import the dataset
 nicotine <- read.table("data.txt", header = TRUE)
 fix(nicotine)
@@ -35,6 +37,7 @@ samples
 s.means <- colMeans(samples)
 
 #“apply()” takes Data frame or matrix as an input and gives output in vector, list or array
+#Returns a vector or array or list of values obtained by applying a function to margins of an array or matrix.
 #Variance row vise
 s.var <- apply(samples, 1, var)
 
@@ -52,4 +55,4 @@ var(nicotine)
 
 #Conclution:-When you check above two results you can see population mean and the mean of sample means are approximately equal 
 
-#Conclution:-When sample size increasing the variance of the sample decreasing. Compare sample variance with (population variance / n). You can see that two values are approximately equal with each other.  
+#Conclution:-When sample size increasing the variance of the sample decreasing. Compare sample variance with (population variance / n). You can see that two values are approximately equal with each other. 
